@@ -3,14 +3,15 @@
 Gets data from Nagios Cross-Platform Agent and loads it
 on elasticsearch
 """
-__version__ = 1
+__version__ = "RC1"
+__author__  = "Juanjo Garcia"
 
 #TODO: remove dependency from ncpa
 #TODO: manage ncpa host failure
 #TODO: manage es host failure
 #TODO: upload to github
 #TODO: convert to a long running process/systemd service
-#TODO: reload by signal<
+#TODO: reload by signal
 
 import check_ncpa as ncpa
 import yaml
