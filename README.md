@@ -1,0 +1,1 @@
+Read Nagios Cross-Platform Agent metrics and store them on an Elasticsearch Cluster. Then use Grafana to plot some graphs on a modest dashboard.
